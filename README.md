@@ -1,39 +1,36 @@
-# Todo App in React
+# Spalování zemního plynu
 
-<p>I created a Todo App (how original 😅) in pure React, styled with Tailwind CSS. I chose the Todo App specifically because, I could easily get inspired by the functionality of already designed applications and focus on practicing React and styling with Tailwind CSS.</p>
+<p>Program řeší výpočet spalování zemního plynu dle tohoto zadání:
 
-# What I learned
+<i>Do hořáku proudí 1500 m3/hod. zemního plynu. Jako okysličovadlo je použit atmosférický vzduch o relativní vlhkosti 50%. Teplota okysličovadla i plynu je 40 °C a míchání probíhá za
+atmosférického tlaku (101325 Pa).</i> </p>
+
+<p>Cílem výpočtu je zjistit:</p>
 <ul>
-  <li>I practiced the basics of React (jsx, using useState and useEffect).</li>
-  <li>I practiced responsive design using Tailwind CSS.</li>
+    <li>Složení vlhkého vzduchu</li>
+    <li>Množství kyslíku</li>
+    <li>Složení spalin</li>
+    <li>Průtoky spalin</li>
+    <li>Entalpie plynů</li>
+    <li>Výhřevnost a spalné teplo</li>
+    <li>Adiabatická teplota plamene</li>
 </ul>
 
-# Future Improvements
+<p>K dosažení těchto cílů bylo využito knihovny Cantera, což je nástroj open-source pro simulaci a analýzu chemických reakcí, spolu s Jupyter Notebookem, který umožnil interaktivní vývoj a prezentaci výpočtů. Tato kombinace nástrojů poskytla efektivní prostředí pro modelování termodynamických procesů a chemických reakcí.</p>
+
+<p>Program vznikl jako součást mé bakalářské práce (odkaz <a href="https://www.vut.cz/studenti/zav-prace/detail/116680">zde</a>) jež měl ukázat využití Pythonu pro technické výpočty konkrétně z pohledu procesního inženýrství.
+Další programy z této práce:</p>
+
 <ul>
-  <li>I would like to rewrite the app in TypeScript.</li>
-  <li>Try another one of the React Hooks on the project.</li>
+    <li><a href="https://github.com/JanKomis/vyparovani">Částečné vypařování</a></li>
+    <li><a href="https://github.com/JanKomis/vypousteniNadrze">Tepelné ztráty</a></li>
+    <li><a href="https://github.com/JanKomis/vyparnikH2O">Výparník H2O</a></li>
+    <li><a href="https://www.vut.cz/studenti/zav-prace/detail/116680">Vypouštění nádrže</a></li>
 </ul>
 
-# Build With
+# Vytvořeno pomocí
 
 <p align="left">
-<a href="https://jupyter.org" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/640px-Jupyter_logo.svg.png" width="36" height="36" alt="Jupyter" /></a>
 <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" width="36" height="36" alt="CSS3" /></a>
-</p>
-
-# Live Demo
-<p>
-  <a href="https://todo-list-jankomis-projects.vercel.app"><img src="https://camo.githubusercontent.com/09a11f3cef0b31aa2f56015680ee1f783ef4ba9234e293793c30fb0b819b691f/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67" width="36" height="36" alt="CSS3" /></a>
-</p>
-
-# Screenshots
-
-<h3>Desktop version</h3>
-<p align="left">
-  <img src="https://github.com/JanKomis/TodoList/blob/main/images/desktop_version.PNG" alt="Screenshot of page displayed on desktop" width="100%" />
-</p>
-
-<h3>Mobile version</h3>
-<p align="left">
-  <img src="https://github.com/JanKomis/TodoList/blob/main/images/mobile_version.png" alt="Screenshot of page displayed on mobile" width="50%" />
+<a href="https://jupyter.org" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/640px-Jupyter_logo.svg.png" width="36" height="36" alt="Jupyter" /></a>
 </p>
