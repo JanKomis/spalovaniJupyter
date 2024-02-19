@@ -31,6 +31,8 @@ Další programy z této práce:</p>
 # Vytvořeno pomocí
 
 <p align="left">
-<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" width="36" height="36" alt="CSS3" /></a>
-<a href="https://jupyter.org" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/640px-Jupyter_logo.svg.png" width="36" height="36" alt="Jupyter" /></a>
+<a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" height="36" alt="Python" /></a>
+<a href="https://jupyter.org" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/640px-Jupyter_logo.svg.png" height="36" alt="Jupyter" /></a>
+<a href="https://cantera.org" target="_blank" rel="noreferrer"><img src="https://numfocus.org/wp-content/uploads/2018/02/cantera-logo-300x300.png" height="36" alt="Cantera" /></a>
 </p>
+
